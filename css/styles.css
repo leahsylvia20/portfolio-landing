@@ -1,0 +1,32 @@
+.h1 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #44103b;
+}
+
+.jumbo-header {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: #44103b;
+}
+
+.box {
+  margin: 10px;
+  padding: 5px;
+  border: 2px; solid: gray;
+}
+
+.h2-fancy {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.img {
+  width: inherit;
+  height: inherit;
+  background-position: inherit;
+}
