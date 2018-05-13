@@ -90,6 +90,7 @@
   height: auto;
   float: left;
   padding: 12px;
+  clear: both;
 }
 
 .intro {
