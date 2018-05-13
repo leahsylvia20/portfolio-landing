@@ -1,5 +1,14 @@
+.h2-fancy {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #44103b;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
 .a {
-    color: white;
+    color: #44103b;
 }
 
 .a:hover {
@@ -35,10 +44,8 @@
 .h2-fancy {
   font-size: 16px;
   font-family: sans-serif;
-  color: white;
-  position: absolute;
-  bottom: 30px;
-  right: 40px;
+  color: #44103b;
+  position: inherit;
 }
 
 .h3 {
@@ -50,6 +57,11 @@
 .p {
   font-size: 14px;
   font-family: sans-serif;
+}
+
+.description {
+  font-size: 11px;
+  color: light gray;
 }
 
 .box {
