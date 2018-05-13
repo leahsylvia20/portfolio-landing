@@ -1,6 +1,22 @@
 .h1 {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #44103b;
+  float: left;
+}
+
+.h2-fancy {
   font-size: 16px;
   font-family: sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.h3 {
+  font-size: 12px;
+  font-weight: 500;
   color: #44103b;
 }
 
@@ -11,22 +27,30 @@
 }
 
 .box {
-  margin: 10px;
-  padding: 5px;
-  border: 2px; solid: gray;
+  margin: 4px;
+  padding: 2px;
+  border: 2px solid gray;
+  background-color: inherit;
 }
 
-.h2-fancy {
-  font-size: 22px;
-  font-family: sans-serif;
-  color: white;
-  position: absolute;
-  bottom: 30px;
-  right: 40px;
-}
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.2); }
 
 .img {
   width: inherit;
   height: inherit;
   background-position: inherit;
+}
+
+.about-me {
+  float: right;
+}
+
+.ul .a {
+display: block;
+color: white;
+float: left;
+list-style-type: none;
+padding: 10px;
 }
