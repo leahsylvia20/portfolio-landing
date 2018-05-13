@@ -1,8 +1,35 @@
+.a {
+    color: white;
+}
+
+.a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.panel-background {
+  background-color: #f4efff;
+}
+
+.about {
+  float: right;
+}
+
+.jumbo-header {
+  background-color: #44103b;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
 .h1 {
   font-size: 18px;
   font-family: sans-serif;
-  color: #44103b;
+  color: #white;
   float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-shadow: 2px 1px 2px #000;
 }
 
 .h2-fancy {
@@ -17,19 +44,18 @@
 .h3 {
   font-size: 12px;
   font-weight: 500;
-  color: #44103b;
+  color: green;
 }
 
-.jumbo-header {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  background-color: #44103b;
+.p {
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .box {
-  margin: 4px;
-  padding: 2px;
-  border: 2px solid gray;
+  margin: 3px 3px 10px 3px;
+  padding: 1px;
+  border: 1px solid gray;
   background-color: inherit;
 }
 
@@ -41,16 +67,22 @@
   width: inherit;
   height: inherit;
   background-position: inherit;
+  margin-bottom: 10px;
 }
 
-.about-me {
+.signature {
+  color: green;
+  display: inline-block;
+}
+
+.leah-sylvia {
+  width: 250px;
+  height: auto;
   float: right;
+  padding: 12px;
 }
 
-.ul .a {
-display: block;
-color: white;
-float: left;
-list-style-type: none;
-padding: 10px;
-}
+.intro {
+ display: inline-block;
+ color: green;
+}​
